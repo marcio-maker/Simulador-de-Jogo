@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.mar{
+  background-image: url(https://th.bing.com/th/id/R.e38ed1ae7fc444f4552760ccb7b19514?rik=3Abb3ALzNiEgZQ&pid=ImgRaw&r=0);
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 100%;
+  border: solid 10px;
+  border-color: #080930;
+  float: center;
+  margin: 10% 0 0 20%;
+  position: fixed;
+  border-radius: 50px;
+}
+.fundo{
+  height: 80%;
+  width: 80%;
+  animation-timing-function: ease-in;
+  animation: exemplo 5s infinite;
+  position: fixed;
+  z-index: -1;
+  margin: 70px 40px 80px 130px;
+  border: solid 10px;
+  border-color: #06051a;
+  border-radius: 50px;
+}
+@keyframes exemplo{
+ 0% {background-color: #06021d;}
+ 25% {background-color: #11088c;}
+ 75% {background-color: #5a568a;}
+ 100% {background-color: #3485a8;}
+}
+
+.botaoon{
+  width: 30px;
+  height: 30px;
+  background-color: #3a08af;
+  border: 5px solid;
+  position: fixed; 
+  margin: 150px 0 0 160px;
+  border-radius: 50px;
+}
+.botaooff{
+  width: 30px;
+  height: 30px;
+  background-color: #966827;
+  border: 5px solid;
+  position: fixed; 
+  margin: 220px 0 0 200px;
+  border-radius: 50px;
+}
+.botaoleftop{
+  width: 30px;
+  height: 100px;
+  background-color: black;
+  border: 5px solid;
+  position: fixed; 
+  margin: 400px 0 0 180px;
+  border-radius: 50px;
+}
+.botaoleft{
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  border: 5px solid;
+  position: fixed; 
+  margin: 432px 0 0 147px;
+  border-radius: 50px;
+}
+
+.botaorighttop{
+  width: 30px;
+  height: 30px;
+  background-color: #ee1b1b;
+  border: 5px solid;
+  position: fixed; 
+  margin: 300px 0 0 1115px;
+  border-radius: 50px;
+}
+.botaorightbotton{
+  width: 30px;
+  height: 30px;
+  background-color: #d61fae;
+  border: 5px solid;
+  position: fixed; 
+  margin: 400px 0 0 1115px;
+  border-radius: 50px;
+}
+.botaorightleft{
+  width: 30px;
+  height: 30px;
+  background-color: #086820;
+  border: 5px solid;
+  position: fixed; 
+  margin: 350px 0 0 1070px;
+  border-radius: 50px;
+}
+.botaorightright{
+  width: 30px;
+  height: 30px;
+  background-color: #cdbc04;
+  border: 5px solid;
+  position: fixed; 
+  margin: 350px 0 0 1160px;
+  border-radius: 50px;
+}
