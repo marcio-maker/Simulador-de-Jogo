@@ -1,110 +1,103 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
 }
-.mar{
-  background-image: url(https://th.bing.com/th/id/R.e38ed1ae7fc444f4552760ccb7b19514?rik=3Abb3ALzNiEgZQ&pid=ImgRaw&r=0);
+
+header, main, footer {
+  width: 100%;
+  text-align: center;
+}
+
+.mar {
+  background-image: url('https://th.bing.com/th/id/R.e38ed1ae7fc444f4552760ccb7b19514?rik=3Abb3ALzNiEgZQ&pid=ImgRaw&r=0');
   height: 50%;
   width: 50%;
-  margin: auto;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 100% 100%;
-  border: solid 10px;
-  border-color: #080930;
-  float: center;
-  margin: 10% 0 0 20%;
-  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 10px #080930;
   border-radius: 50px;
+  margin: 10% auto;
 }
-.fundo{
+
+.fundo {
   height: 80%;
   width: 80%;
-  animation-timing-function: ease-in;
-  animation: exemplo 5s infinite;
+  animation: fundo-animation 5s infinite ease-in;
+  border: solid 10px #06051a;
+  border-radius: 50px;
   position: fixed;
   z-index: -1;
-  margin: 70px 40px 80px 130px;
-  border: solid 10px;
-  border-color: #06051a;
-  border-radius: 50px;
-}
-@keyframes exemplo{
- 0% {background-color: #06021d;}
- 25% {background-color: #11088c;}
- 75% {background-color: #5a568a;}
- 100% {background-color: #3485a8;}
+  margin: 100px auto;
 }
 
-.botaoon{
+@keyframes fundo-animation {
+  0% { background-color: #06021d; }
+  25% { background-color: #11088c; }
+  75% { background-color: #5a568a; }
+  100% { background-color: #3485a8; }
+}
+
+.botao {
   width: 30px;
   height: 30px;
+  border: 5px solid;
+  border-radius: 50px;
+  position: fixed; 
+}
+
+.botao-on {
   background-color: #3a08af;
-  border: 5px solid;
-  position: fixed; 
-  margin: 150px 0 0 160px;
-  border-radius: 50px;
-}
-.botaooff{
-  width: 30px;
-  height: 30px;
-  background-color: #966827;
-  border: 5px solid;
-  position: fixed; 
-  margin: 220px 0 0 200px;
-  border-radius: 50px;
-}
-.botaoleftop{
-  width: 30px;
-  height: 100px;
-  background-color: black;
-  border: 5px solid;
-  position: fixed; 
-  margin: 400px 0 0 180px;
-  border-radius: 50px;
-}
-.botaoleft{
-  width: 100px;
-  height: 30px;
-  background-color: black;
-  border: 5px solid;
-  position: fixed; 
-  margin: 432px 0 0 147px;
-  border-radius: 50px;
+  top: 150px;
+  left: 160px;
 }
 
-.botaorighttop{
-  width: 30px;
-  height: 30px;
+.botao-off {
+  background-color: #966827;
+  top: 220px;
+  left: 200px;
+}
+
+.botao-left-top {
+  background-color: black;
+  height: 100px;
+  top: 400px;
+  left: 180px;
+}
+
+.botao-left {
+  background-color: black;
+  width: 100px;
+  top: 432px;
+  left: 147px;
+}
+
+.botao-right-top {
   background-color: #ee1b1b;
-  border: 5px solid;
-  position: fixed; 
-  margin: 300px 0 0 1115px;
-  border-radius: 50px;
+  top: 300px;
+  left: 1115px;
 }
-.botaorightbotton{
-  width: 30px;
-  height: 30px;
+
+.botao-right-bottom {
   background-color: #d61fae;
-  border: 5px solid;
-  position: fixed; 
-  margin: 400px 0 0 1115px;
-  border-radius: 50px;
+  top: 400px;
+  left: 1115px;
 }
-.botaorightleft{
-  width: 30px;
-  height: 30px;
+
+.botao-right-left {
   background-color: #086820;
-  border: 5px solid;
-  position: fixed; 
-  margin: 350px 0 0 1070px;
-  border-radius: 50px;
+  top: 350px;
+  left: 1070px;
 }
-.botaorightright{
-  width: 30px;
-  height: 30px;
+
+.botao-right-right {
   background-color: #cdbc04;
-  border: 5px solid;
-  position: fixed; 
-  margin: 350px 0 0 1160px;
-  border-radius: 50px;
+  top: 350px;
+  left: 1160px;
 }
